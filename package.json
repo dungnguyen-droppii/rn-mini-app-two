@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android --port 8084",
-    "ios": "react-native run-ios --port 8084",
+    "android": "react-native run-android --no-packager",
+    "ios": "react-native run-ios --no-packager",
     "lint": "eslint .",
     "start": "react-native webpack-start --port 8084",
+    "bundle": "react-native webpack-bundle",
     "test": "jest"
   },
   "dependencies": {
