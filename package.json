@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "android": "react-native run-android --port 8084",
+    "ios": "react-native run-ios --port 8084",
     "lint": "eslint .",
-    "start": "react-native webpack-start",
+    "start": "react-native webpack-start --port 8084",
     "test": "jest"
   },
   "dependencies": {
